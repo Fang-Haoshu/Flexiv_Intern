@@ -66,16 +66,18 @@
      3. Run RecompileProto.py 
      4. Replace file in ~/Simulator/projs/dataset_generator with the newly generated SceneRenderer_pb2.py and SceneRenderer_pb2_grpc.py in rotobuf_py.
      5. Upgrade grpc， protobuf to the latest version
-     ```
+     ```python
      pip3 uninstall grpcio
     pip3 uninstall protobuf
     pip3 install --user grpcio
     pip3 install --user protobuf
     ```
     Note:
-    Use /usr/bin/python instead of the one in virtual environment such as anaconda.
-    python with which the source code is built is outdated. Functions in packages such as scipy may be deprecated.
+    1. Use /usr/bin/python instead of the one in virtual environment such as anaconda.
+    
+    2. python with which the source code is built is not up-to-date. Functions in packages such as scipy may be deprecated.
+    
 ### Run Simulator/projs/dataset_generator/robot_control_kine.py
-```
+```python
 sudo python robot_control_kine.py
 ```
