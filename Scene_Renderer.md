@@ -42,7 +42,7 @@
     点击 BluePrints -> Open Level Blueprint:
     ![Step 1](https://github.com/renxinyang/Flexiv_Intern/blob/master/Step1.png)
     修改Key File的地址：
-    ![Step 2](https://github.com/renxinyang/Flexiv_Intern/blob/master/Step2.png)
+    ![Step 2](Step2.png)
  3. 需要更新protoco:
      1.  从源代码安装 [grpc](https://github.com/grpc/grpc/blob/master/BUILDING.md):
      ```
