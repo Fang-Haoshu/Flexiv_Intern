@@ -11,7 +11,7 @@
    `
    294:		public bool bUseRTTI = true;
    `
-5. Insert 'typename between two commas at Ln326 of 'UnrealEngine/Engine/Source/Runtime/RenderCore/Public的RenderingThread.h' as:
+5. Insert 'typename' between two commas at Ln326 of 'UnrealEngine/Engine/Source/Runtime/RenderCore/Public/RenderingThread.h' as:
 
    `
    ENQUEUE_UNIQUE_RENDER_COMMAND_ONEPARAMETER_DECLARE_OPTTYPENAME(
