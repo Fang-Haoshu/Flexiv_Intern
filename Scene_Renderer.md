@@ -37,15 +37,18 @@
  
  ### 运行Scene Renderer
  点击Play，重新设置路径
+ 
  ![Step 3](Step3.png)
  
  可能遇到如下问题:
  1. mjkey.txt很有可能过期了或者不属于运行的电脑，需要去[mujoco](https://www.roboti.us/license.html)官网申请新的license
  2. 报错找不到mjkey.txt, 如下修改成本机mjkey.txt 所在路径
     点击 BluePrints -> Open Level Blueprint:
+    
     ![Step 1](https://github.com/renxinyang/Flexiv_Intern/blob/master/Step1.png)
     
     修改Key File的地址：
+    
     ![Step 2](Step2.png)
  3. 需要更新protoco:
      1.  从源代码安装 [grpc](https://github.com/grpc/grpc/blob/master/BUILDING.md):
