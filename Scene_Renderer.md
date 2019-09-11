@@ -14,7 +14,8 @@
 5. 将UnrealEngine/Engine/Source/Runtime/RenderCore/Public的RenderingThread.h， 326行的两个连续逗号间添加`typename`， 如下所示：
 
    `
-   ENQUEUE_UNIQUE_RENDER_COMMAND_ONEPARAMETER_DECLARE_OPTTYPENAME(TypeName,ParamType1,ParamName1,ParamValue1,typename,Code)
+   ENQUEUE_UNIQUE_RENDER_COMMAND_ONEPARAMETER_DECLARE_OPTTYPENAME(
+   TypeName,ParamType1,ParamName1,ParamValue1,typename,Code)
    `
 6. 编译安装
    ```
