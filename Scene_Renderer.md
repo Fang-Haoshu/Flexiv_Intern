@@ -41,8 +41,9 @@
  2. 报错找不到mjkey.txt, 如下修改成本机mjkey.txt 所在路径
     点击 BluePrints -> Open Level Blueprint:
     ![Step 1](https://github.com/renxinyang/Flexiv_Intern/blob/master/Step1.png)
+    
     修改Key File的地址：
-    ![Step 2](Step2.png)
+    ![Step 2](Step 2.png)
  3. 需要更新protoco:
      1.  从源代码安装 [grpc](https://github.com/grpc/grpc/blob/master/BUILDING.md):
      ```
