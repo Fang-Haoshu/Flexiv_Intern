@@ -56,7 +56,7 @@
  3. 需要更新protoco:
      1.  从源代码安装 [grpc](https://github.com/grpc/grpc/blob/master/BUILDING.md):
      ```
-     git clone -b $(curl -L https://grpc.io/release) https://github.com/grpc/grpc
+     git clone -b v1.19.x https://github.com/grpc/grpc
      cd grpc
      git submodule update --init
      make
