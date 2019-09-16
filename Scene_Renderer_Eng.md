@@ -57,7 +57,7 @@
  3. Update protoco:
      1.  Install [grpc](https://github.com/grpc/grpc/blob/master/BUILDING.md) from source:
      ```
-     git clone -b $(curl -L https://grpc.io/release) https://github.com/grpc/grpc
+     git clone -b v1.19.x https://github.com/grpc/grpc
      cd grpc
      git submodule update --init
      make
