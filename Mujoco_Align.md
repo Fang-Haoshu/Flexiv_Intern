@@ -5,6 +5,7 @@
   * mujoco: -lmujoco150 -lGL include libmujoco150.so libmujoco150nogl.so in the lib directory
   * pcl: 
     [Reference](https://askubuntu.com/questions/916260/how-to-install-point-cloud-library-v1-8-pcl-1-8-0-on-ubuntu-16-04-2-lts-for)
+    
     Remember to install libboost,libeigen, VTK in advance
     
     Include -lpcl_common -lpcl_kdtree -lpcl_registration -lpcl_search in the lib directory
