@@ -17,5 +17,5 @@ make
 ```
 4. Run main.o to calculate the transformation matrix
 ```
-./main.o --mesh-file dirsctory to the stl file
+./main.o --mesh-file directory to the stl file
 ```
